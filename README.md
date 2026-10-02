@@ -1,10 +1,10 @@
 # DevOps Conception Class
-- Student: [Name]
+- Student: [MOT PHUM]
 
 ## Lesson 2: My CI/CD pipeline
-- Project: [Flutter app + Laravel API]
-- Trigger: [Push to practice branch]
-- Target: [Staging + test device]
+- Project: Personal Finance Management System[Flutter app + Laravel API]
+- Trigger: push to feature/register [Push to practice branch]
+- Target: Laravel staging server + Android testing device.[Staging + test device]
 
 ### Pipeline design
 Code -> Test -> Build -> Release -> Deploy
