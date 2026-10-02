@@ -2,9 +2,9 @@
 - Student: [MOT PHUM]
 
 ## Lesson 2: My CI/CD pipeline
-- Project: Personal Finance Management System[Flutter app + Laravel API]
-- Trigger: push to feature/register [Push to practice branch]
-- Target: Laravel staging server + Android testing device.[Staging + test device]
+- Project: Personal Finance Management System
+- Trigger: push to feature/register.
+- Target: Laravel staging server + Android testing device.
 
 ### Pipeline design
 Code -> Test -> Build -> Release -> Deploy
@@ -14,6 +14,7 @@ Code -> Test -> Build -> Release -> Deploy
 4. Release: [action]=Approve version v1.0.0 | [person]=release lead (SOR VEASNA) | [output]=Approve version v1.0.1 | [manual]    
 5. Deploy: [action]=stage APK | [person]=Devops | [output]=Running App | [manual]
 ### Controls
-On test/build failure: stop release  fix issue  return test.| Release approval by: release lead (SOR VEASNA)
-After deployment, check: register | If it fails: stop version v1.0.1 and  rollback to version v1.0.0
-Optional drawing: ![My pipeline](image.png)
+-On test/build failure: stop release  fix issue  return test.
+-Release approval by: release lead (SOR VEASNA)
+-After deployment, check: register | If it fails: stop version v1.0.1 and  rollback to version v1.0.0
+-Optional drawing: ![My pipeline](image.png)
